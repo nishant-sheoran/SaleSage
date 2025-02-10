@@ -1,51 +1,49 @@
-# Sales Prediction Website
+# SaleSage
 
-Welcome to the Sales Prediction Website repository! This project leverages the power of machine learning to provide accurate sales forecasts and predictions. The application is built using a combination of React for the front-end and Flask for the back-end. It utilizes Long Short-Term Memory (LSTM) networks for future sales forecasting and XGBoost for sales prediction.
+This project leverages machine learning to provide accurate sales forecasts and predictions, empowering businesses with data-driven insights.
 
-## Introduction
+Built with React for an intuitive front-end and Flask for a robust back-end, the system integrates Long Short-Term Memory [(LSTM)](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html) networks for future sales forecasting and [XGBoost](https://xgboost.readthedocs.io/en/stable/) for precise sales predictions.
 
-This project aims to help businesses make informed decisions by predicting future sales trends and providing insights based on historical data. By employing advanced machine learning models, the application delivers precise and reliable sales forecasts.
+## 🚀 Introduction
+Understanding future sales trends is crucial for strategic decision-making. This project helps businesses make informed choices by analyzing historical sales data and applying advanced ML models to generate accurate forecasts.
 
-## Features
+## ✨ Key Features
+- 📊 **Future Sales Forecasting**: LSTM networks predict upcoming sales trends based on historical data.
+- 📈 **Sales Prediction**: XGBoost provides accurate short-term sales predictions.
+- 🖥️ **User-Friendly Interface**: Built with React, offering an intuitive and responsive UI.
+- 🔗 **RESTful API**: Powered by Flask, handling data processing and model inference efficiently.
 
-- **Future Sales Forecasting:** Uses LSTM networks to forecast future sales based on historical data.
-- **Sales Prediction:** Implements XGBoost to predict sales figures.
-- **User-Friendly Interface:** Built with React to provide an intuitive and responsive user interface.
-- **RESTful API:** Powered by Flask to handle data processing and model inference.
+## 🖼 Preview
+| Home Page | Upload Data | Prediction Results | Past Sales | Future Sales |
+|-----------|------------|--------------------|------------|--------------|
+| ![Home](assets/homepagescreenshot.png) | ![Upload](assets/uploadscreenshot.png)| ![Results](assets/lstmscreenshot.png) | ![Past](assets/pastsalesscreenshot.png) | ![Future](assets/futuresalesscreenshot.png) |
 
-## Screenshots
 
-### Home Page ![homepage](assets/homepagescreenshot.png)
-### Upload Data ![upload](assets/uploadscreenshot.png)
-### Prediction Results ![regression](assets/lstmscreenshot.png)
-![pastsales](assets/pastsalesscreenshot.png)
-![futuresales](assets/futuresalesscreenshot.png)
-## Technologies Used
+## 🛠 Technologies Used
 
 ### Front-End
-
-- React
-- Axios (for API requests)
-- Chart.js (for data visualization)
+- React (for UI)
+- Axios (API requests)
+- Chart.js (data visualization)
 - NextUI Library
 
 ### Back-End
-
 - Flask
 - Flask-RESTful
 - Flask-CORS
 
 ### Machine Learning
-
-- TensorFlow/Keras (for LSTM)
+- TensorFlow/Keras (LSTM models)
 - XGBoost
 - Pandas
 - Scikit-learn
 
-## Installation
+## 🔧 Installation Guide
 
 ### Prerequisites
-
-- Node.js and npm
+- Node.js and npm installed
 - Python 3.7+
-- Virtualenv
+- Virtualenv for dependency management
+
+## 🤝 Contributing
+We welcome contributions to improve this project and look forward to collaborating with you!
