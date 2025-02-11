@@ -45,5 +45,6 @@ Understanding future sales trends is crucial for strategic decision-making. This
 - Python 3.7+
 - Virtualenv for dependency management
 
-## 🤝 Contributing
-We welcome contributions to improve this project and look forward to collaborating with you!
+
+
+_💡Build During CodeFest'25 Hackathon_
